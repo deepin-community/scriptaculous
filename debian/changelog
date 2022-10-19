@@ -1,0 +1,98 @@
+scriptaculous (1.9.0-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 14:49:35 +0100
+
+scriptaculous (1.9.0-2) unstable; urgency=low
+
+  * push package to unstable
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Sun, 06 Mar 2011 21:39:00 +0200
+
+scriptaculous (1.9.0-1) experimental; urgency=low
+
+  * new upstream version
+  * changed standards version to 3.9.1
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Thu, 30 Dec 2010 21:07:00 +0200
+
+scriptaculous (1.8.3-1) unstable; urgency=low
+
+  * new upstream version 1.8.3
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Tue, 13 Oct 2009 14:00:00 +0200
+
+scriptaculous (1.8.2-2) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Minimizing rules file.
+  * Updating package to standards version 3.8.3.
+  * Updating year in copyright file.
+  * Removing vcs fields.
+
+  [ Frank Habermann ]
+  * New maintainer, taking over package from Daniel
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Wed, 26 Aug 2009 21:03:28 +0200
+
+scriptaculous (1.8.2-1) unstable; urgency=low
+
+  [ Marcelo Jorge Vieira ]
+  * Added watch file.
+
+  [ Daniel Baumann ]
+  * Updating to standards 3.8.0.
+  * Updating package to debhelper 7.
+  * Prefixing debhelper files with package name.
+  * Merging upstream version 1.8.2.
+  * Updating debhelper docs file.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 25 Jan 2009 03:01:00 +0100
+
+scriptaculous (1.8.1-5) unstable; urgency=low
+
+  [ Steve Kemp ]
+  * Added myself to the uploaders
+
+  [ Daniel Baumann ]
+  * Removing outdated conficts/replaces.
+  * Setting maintainer field to javascript group.
+  * Updating vcs fields in control field.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 10 May 2008 19:11:00 +0200
+
+scriptaculous (1.8.1-4) unstable; urgency=low
+
+  * Downgrading relation to javascript-common from depends to
+    recommends.
+  * Changing license of the debian files to same license as upstream.
+  * Updating prototype dependency.
+  * Adding README.Debian.
+  * Renaming binary package to libjs-scriptaculous.
+  * Adding dependency against javascript-common.
+  * Adding Marcelo as comaintainer.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 30 Mar 2008 00:26:00 +0100
+
+scriptaculous (1.8.1-3) unstable; urgency=low
+
+  * Updating depends to prototype (Closes: #467515).
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 26 Feb 2008 06:34:00 +0100
+
+scriptaculous (1.8.1-2) unstable; urgency=low
+
+  * Adding vcs fields in control.
+  * Rewriting copyright in machine-interpretable format.
+  * Replacing install target in rules with debhelper files.
+  * Reordering targets in rules.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 24 Feb 2008 22:01:00 +0100
+
+scriptaculous (1.8.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 16 Feb 2008 09:26:00 +0100
